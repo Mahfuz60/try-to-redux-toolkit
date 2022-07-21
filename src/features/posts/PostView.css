@@ -1,0 +1,50 @@
+.postContainer {
+  background-color: rgb(117, 121, 121);
+  height: auto;
+  width: auto;
+}
+.postContainer h2 {
+  color: white;
+  font-weight: bold;
+  padding-top: 50px;
+}
+section {
+  display: grid;
+  grid-gap:1rem;
+  padding: 1rem;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  background-color: rgb(22, 22, 63);
+  color: white;
+  padding: 1rem;
+  border-radius: 5px;
+  border: 1px solid black;
+  height: 200px;
+  width: 300px;
+}
+
+/*responsive*/
+@media screen and (min-width: 600px) {
+  section {
+    grid-template-columns: auto auto;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  section {
+    grid-template-columns: auto auto auto;
+  }
+}
+@media screen and (min-width: 992px) {
+  section {
+    grid-template-columns: auto auto auto;
+  }
+}
+@media screen and (min-width: 1024px) {
+  section {
+    grid-template-columns: auto auto auto auto;
+  }
+}
